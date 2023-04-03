@@ -1,0 +1,187 @@
+/* ------------responsive------------ */
+/* @media (max-width: 1299px){} */
+@media (max-width: 1199px){
+    .home .home-right h2{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 1099px){
+    .main-box h1{
+        font-size: 4rem;
+    }
+    .main-box #country{
+        font-size: 1.5rem;
+    }
+    .main-box h3{
+      font-size: 3rem;
+    }
+    .main-box h5{
+        font-size: 1.3rem;
+    }
+    .home .home-right h2{
+        font-size: 2.65rem;
+        margin-bottom: 1.5rem;
+    }
+    .weather-details h6{
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 949px){
+    .home-left .input-box {
+        width: 50%;
+    }
+    .main-box h1{
+        font-size: 3.5rem;
+    }
+    .main-box #country{
+        font-size: 1rem;
+    }
+    .main-box h3{
+      font-size: 2.5rem;
+    }
+    .main-box h5{
+        font-size: 1.1rem;
+    }
+    .home .home-right h2{
+        font-size: 2rem;
+        margin-bottom: 1.2rem;
+    }
+    .weather-details h6{
+        margin-top: 2rem;
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 800px){
+    .home-left .input-box {
+        width: 60%;
+    }
+    .main-box h1{
+        font-size: 3rem;
+    }
+    .main-box #country{
+        font-size: .9rem;
+    }
+    .main-box h3{
+      font-size: 2.2rem;
+    }
+    .main-box h5{
+        font-size: 1.1rem;
+    }
+    .home .home-right h2{
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    .weather-details h6{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 710px){
+    .home-left .input-box {
+        width: 100%;
+    }
+    .home .home-left {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-right {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 5rem;
+    }
+    .main-box h1{
+        font-size: 3rem;
+    }
+    .main-box #country{
+        font-size: 1rem;
+    }
+    .main-box h3{
+      font-size: 2.5rem;
+    }
+    .main-box h5{
+        font-size: 1.4rem;
+    }
+    .home .home-right h2{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .weather-details h6{
+        font-size: 1.5rem;
+        margin-top: 2.2rem;
+    }
+}
+@media (max-width: 650px){
+    .main-box h1{
+        font-size: 2.8rem;
+    }
+}
+@media (max-width: 600px){
+    .main-box h1{
+        font-size: 2.5rem;
+    }
+    .main-box h5{
+        font-size: 1.2rem;
+    }
+    .main-box h3{
+        font-size: 2.2rem;
+    }
+}
+@media (max-width: 515px){
+    .main-box h1{
+        font-size: 2.1rem;
+    }
+    .main-box h5{
+        font-size: 1.1rem;
+    }
+    .main-box h3{
+        font-size: 2rem;
+    }
+    .home .home-right h2{
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .weather-details h6{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 470px){
+    .home-left .input-box input {
+        font-weight: 500;
+    }
+    .section {
+        padding: 0;
+    }
+    .container {
+        border-radius: 0;
+    }
+    .main-box h1{
+        font-size: 2.5rem;
+    }
+    .main-box #country{
+        font-size: .7rem;
+    }
+    .main-box h5{
+        font-size: 1.2rem;
+        color: var(--text-color-50);
+        font-weight: 500;
+    }
+    .main-box h3{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 414px){
+    .main-box h1{
+        font-size: 1.8rem;
+    }
+    .main-box #country{
+        font-size: .5rem;
+    }
+    .main-box h5{
+        font-size: 1rem;
+        margin-top: .6rem;
+    }
+    .main-box h3{
+        font-size: 1.8rem;
+    }
+}

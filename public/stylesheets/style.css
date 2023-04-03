@@ -1,0 +1,255 @@
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 600;
+  src: url("../font/Gilroy-Bold.otf")
+}
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 500;
+  src: url("../font/Gilroy-Medium.otf")
+}
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 400;
+  src: url("../font/Gilroy-Regular.otf")
+}
+@font-face {
+  font-family: "Voyage";
+  font-weight: 400;
+  src: url("../font/Voyage-Regular.ttf")
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: Gilroy,Voyage;
+}
+:root {
+  --bg-color: #f3f3f3;
+  --bg-color-1: #282828;
+  --text-color-50: #000;
+  --text-color-100: #252525;
+  --text-color-500: #414141;
+  --text-color-700: #4c4b4b;
+  --text-color-900: #646464;
+  --text1-color-50: #fff;
+  --text1-color-100: #dfdfdf;
+  --text1-color-500: #c7c6c6;
+  --text1-color-700: #b7b7b7;
+  --text1-color-900: #9d9d9d;
+}
+html,body{
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ----------main-content---------- */
+.main-content {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+.video{
+  background-position: center;
+  background-size: cover;
+}
+/* ----------home---------- */
+.section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 3rem;
+}
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  background-color: var(--bg-color-1);
+}
+.image{
+  background-size: cover;
+  background-position: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ----------home-left---------- */
+.home .home-left {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.home-left .input-box {
+  position: relative;
+  width: 40%;
+  height: 40px;
+  border-bottom: 2px solid var(--text1-color-900);
+}
+
+.home-left .input-box label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: var(--text1-color-50);
+  font-family: Gilroy;
+  font-weight: 500;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.home-left .input-box input:focus~label,
+.home-left .input-box input:valid~label {
+  top: -5px;
+}
+
+.home-left .input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: Gilroy;
+  font-size: 1rem;
+  color: var(--text1-color-500);
+  padding: 0 35px 0 5px;
+}
+
+.home-left .input-box .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.6rem;
+  color: var(--text1-color-700);
+  line-height: 40px;
+}
+
+.home-left .main-box{
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 50px;
+}
+
+/* ----------main-top---------- */
+.main-box .top{
+  width: 100%;
+  display: flex;
+}
+.main-box .top .top-left{
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+.main-box .top .top-right{
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+.main-box .top .top-right{
+  text-align: center;
+}
+.main-box h1{
+  font-size: 4.5rem;
+  color: var(--text1-color-50);
+  font-family: Gilroy;
+  font-weight: 600;
+}
+.main-box #country{
+  font-size: 2rem;
+}
+.main-box h3{
+  font-size: 3.5rem;
+  margin-top: 40px;
+  color: var(--text1-color-50);
+  font-family: Gilroy;
+  font-weight: 600;
+}
+.main-box h5{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  color: var(--text1-color-500);
+  font-family: Gilroy;
+  font-weight: 400;
+}
+.main-box .desc-weather{
+  margin-bottom: 1rem;
+}
+/* ----------main-btm---------- */
+.main-box .btm{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+.main-box .btm .btm-left{
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.main-box .btm .btm-right{
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+/* ----------home-right---------- */
+.home .home-right {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.home .home-right h2{
+  font-size: 3.5rem;
+  color: var(--text1-color-100);
+  font-family: Voyage;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  margin-bottom: 2rem;
+}
+.home .home-right .weather-details{
+  width: 100%;
+  display: flex;
+}
+.weather-details .box-left{
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+.weather-details .box-right{
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+.weather-details h6{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 2.2rem;
+}
+.weather-details .box-left h6{
+  color: var(--text1-color-500);
+}
+.weather-details .box-right h6{
+  color: var(--text1-color-100);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

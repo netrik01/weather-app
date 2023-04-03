@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../stylesheets/style.css">
+  <link rel="stylesheet" href="../stylesheets/responsive.css">
+</head>
+
+<body>
+  <div class="main-content video">
+    <section class="home section">
+      <div class="container image">
+        <div class="row">
+          <div class="home-left">
+            <div class="input-box">
+              <i style="cursor: pointer;" class="search icon ri-search-line"></i>
+              <input type="text" name="username" id="input" required>
+              <label>Location</label>
+            </div>
+            <div class="main-box">
+              <div class="top">
+                <div class="top-left">
+                  <h1><span class="city">Kolkata </span><span id="country">, IN</span></h1>
+                  <h5 class="date">Monday, 20:9:2024</h5>
+                  <h5 class="time">10:35:24 PM</h5>
+                  <h3>Coordinate</h3>
+                  <h5>Longitude <span class="longitude">: 88.3697</span></h5>
+                  <h5>Latitude <span class="latitude">: 22.5697</span></h5>
+                </div>
+                <div class="top-right">
+                  <h1 class="main-weather">Clear</h1>
+                  <h5 class="desc-weather">clear sky</h5>
+                  <h1><span class="temp">23</span> &#8451;</h1>
+                  <h5>Feels like <span class="feel">25</span><span class="feel-temp">&#8451;</span></h5>
+                </div>
+              </div>
+              <div class="btm">
+                <div class="btm-left">
+                  <h3>Sunrise</h3>
+                  <h5 class="sun-rise-time">6:04:43 AM</h5>
+                </div>
+                <div class="btm-right">
+                  <h3>Sunset</h3>
+                  <h5 class="sun-set-time">6:44:43 PM</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-right">
+            <h2>Weather Details</h2>
+            <div class="weather-details">
+              <div class="box-left">
+                <h6>Cloudy</h6>
+                <h6>Humidity</h6>
+                <h6>Pressure</h6>
+                <h6>Visibility</h6>
+                <h6>Wind</h6>
+              </div>
+              <div class="box-right">
+                <h6><span id="cloudy">70</span> %</h6>
+                <h6><span id="humidity">60</span> %</h6>
+                <h6><span id="pressure">1004</span> PS</h6>
+                <h6><span id="visibility">12</span> mi</h6>
+                <h6><span id="wind">2.5</span> km/h</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="../javascripts/script.js"></script>
+</body>
+
+</html>
