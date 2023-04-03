@@ -146,6 +146,9 @@
 }
 
 @media (max-width: 470px){
+    .image{
+        background-image: url(../images/21.jpg);
+    }
     .home-left .input-box input {
         font-weight: 500;
     }
@@ -163,7 +166,7 @@
     }
     .main-box h5{
         font-size: 1.2rem;
-        color: var(--text-color-50);
+        color: var(--text1-color-50);
         font-weight: 500;
     }
     .main-box h3{

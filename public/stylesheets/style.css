@@ -54,6 +54,7 @@ html,body{
   background-color: var(--bg-color);
 }
 .video{
+  background-image: url(../images/18.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -73,6 +74,7 @@ html,body{
   background-color: var(--bg-color-1);
 }
 .image{
+  background-image: url(../images/23.jpg);
   background-size: cover;
   background-position: center;
 }
