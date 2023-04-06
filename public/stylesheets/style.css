@@ -51,7 +51,7 @@ html,body{
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
 }
 .video{
   background-image: url(../images/18.jpg);
@@ -71,7 +71,7 @@ html,body{
   margin: auto;
   border-radius: 10px;
   padding: 2rem 1rem;
-  background-color: var(--bg-color-1);
+  /* background-color: var(--bg-color-1); */
 }
 .image{
   background-image: url(../images/23.jpg);
